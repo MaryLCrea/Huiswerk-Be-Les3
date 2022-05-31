@@ -30,9 +30,7 @@ public class Main {
             } else if (input == "V") {
                 System.out.println("Typ een cijfer van 0 t/m 9");
                 int number = scanner.nextline();
-            } if (number < 10);
-            {
-
+            } if (number < 10) {
                 String result = translator.translate(number);
                 System.out.println("De vertaling van " + number + " is " + result.);
             } else {
