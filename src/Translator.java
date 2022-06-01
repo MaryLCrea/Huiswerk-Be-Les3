@@ -19,8 +19,7 @@ public class Translator {
     }
    // 10. Method Translate
     private String translate(Integer[] number) {
-        System.out.println("random tekst");
-
+        System.out.println("random tekst to print");
       //11.??
         return null;
     }

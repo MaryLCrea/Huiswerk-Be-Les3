@@ -25,27 +25,24 @@ public class Main {
             String input = scanner.nextLine();
 
             // 15. If else
+
             if (input == "X") {
                 play = false;
             } else if (input == "V") {
                 System.out.println("Typ een cijfer van 0 t/m 9");
                 int number = scanner.nextline();
-            } if (number < 10);
-            {
-
+            } if (number < 10) {
                 String result = translator.translate(number);
-                System.out.println("De vertaling van " + number + " is " + result.);
+                System.out.println("De vertaling van " + number + " is " + result);
             } else {
                         System.out.println("ongeldig");
                     }
-                } else {
-                 if (input != "X" && input != "Y") {
+                } else (input != "X" && input != "Y") {
                      System.out.println("ongeldig");
-
                     }
                 }
             }
-        }
+
 
 
 
